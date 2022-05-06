@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1650913142 source:f:\pasta\facul\algoritimos\trabalho 1 ads - nathan r\exercicio7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<time.h>
+

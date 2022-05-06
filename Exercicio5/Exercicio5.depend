@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1650819135 source:c:\users\nathan\desktop\trabalho 1 ads - nathan r\exercicio5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<time.h>
+
+1650819286 source:f:\pasta\facul\algoritimos\trabalho 1 ads - nathan r\exercicio5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<time.h>
+
+1651059370 source:e:\pasta\facul\algoritimos\trabalho 1 ads - nathan r\exercicio5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<time.h>
+
