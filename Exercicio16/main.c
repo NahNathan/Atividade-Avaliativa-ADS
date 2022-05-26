@@ -20,8 +20,8 @@
 int main()
 {
     //Declarando e inicializando as variáveis
-    int dia_atu, mes_atu, ano_atu, dia_ani, mes_ani, ano_ani;
-    dia_atu=mes_atu=ano_atu=dia_ani=mes_ani=ano_ani=0;
+    int dia_atu, mes_atu, ano_atu, dia_ani, mes_ani, ano_ani, idade;
+    dia_atu=mes_atu=ano_atu=dia_ani=mes_ani=ano_ani=idade=0;
 
     //Recebendo o dia atual
     printf("Bom dia, digite o dia atual\n");
@@ -111,5 +111,15 @@ int main()
         scanf("%d",& ano_ani);
         system("cls");
     }
+
+
+    //Calculando
+    if(mes_ani<mes_atu || (mes_ani==mes_atu && dia_ani<=dia_atu))
+        idade=ano_atu-ano_ani;
+    else
+        idade=(ano_atu-ano_ani)-1;
+
+    //Mostrando
+    printf("\nA IDADE EH DE %d \n", idade);
     return 0;
 }
